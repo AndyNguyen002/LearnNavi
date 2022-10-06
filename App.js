@@ -33,8 +33,8 @@ function Register() {
 function ForgotPassword() {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <TextInput placeholder="UserName" style={styles.input} />
-      <Buttonn>Get passWord</Buttonn>
+      <TextInput placeholder="Enter Username" style={styles.input} />
+      <Buttonn>Get password</Buttonn>
     </View>
   );
 }
