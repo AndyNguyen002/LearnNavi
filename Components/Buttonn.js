@@ -11,7 +11,7 @@ const Buttonn = (props) => {
 const styles = StyleSheet.create({
   buttonBody: {
     width: "70%",
-    backgroundColor: "#00b6ed",
+    backgroundColor: "lightcoral",
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 20,
