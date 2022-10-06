@@ -6,16 +6,17 @@ import { Buttonn } from "./Components/Buttonn";
 function HomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Home Screen</Text>
+      <Text></Text>
       <Button
         title="Register"
         onPress={() => navigation.navigate("Register")}
-        style={styles.mbtn}
+        color="lightcoral"
       />
+      <Text></Text>
       <Button
         title="Forgot password"
         onPress={() => navigation.navigate("ForgotPassword")}
-        style={styles.mbtn}
+        color="lightcoral"
       />
     </View>
   );
@@ -62,9 +63,6 @@ const styles = StyleSheet.create({
   },
   btn: {
     width: "70%",
-  },
-  mbtn: {
-    marginTop: 20,
   },
 });
 
